@@ -2,8 +2,7 @@
 
 Ejemplo de uso: 
 
-´´´
-
+```
     const initialForm = {
         name: '',
         age: ',
@@ -11,4 +10,4 @@ Ejemplo de uso:
     }
 
     const [ values, handleInputChange, reset ] = useForm( initialForm );
-´´´
+```
